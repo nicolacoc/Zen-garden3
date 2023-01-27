@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
     background-image: url("images/blue_abstract_background.jpg");
     background-repeat: no-repeat;
@@ -7,30 +9,49 @@ body {
     justify-content: center;
 }
 
+
 div.page-wrapper {
     background-color: white;
     border-radius: 30px;
     box-sizing: content-box;
     width: 65%;
     padding: 10px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dancing Script', cursive;
+
 }
 
-.intro .banner h1{
+.intro .banner h1 {
     font-size: 30px;
     color: darkorange;
+    text-align: center;
 }
 
-.intro .banner h2{
+.intro .banner h2 {
     font-size: 20px;
+    text-align: center;
 
 }
 
-h3{
+h3 {
     font-size: 20px;
     color: black;
 }
 
-.wrapper{
+.wrapper {
     background-color: darkgrey;
+}
+
+p:first-letter {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1#title, h2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
