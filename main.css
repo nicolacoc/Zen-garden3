@@ -41,7 +41,7 @@ h3 {
     background-color: darkgrey;
 }
 
-p:first-letter {
+div p:nth-child(2):first-letter {
     font-size: 40px;
     font-weight: bolder;
 }
@@ -54,4 +54,8 @@ h1#title, h2 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+section.intro header h2 abbr, div.summary p abbr{
+    text-decoration: none;
 }
