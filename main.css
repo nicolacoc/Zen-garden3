@@ -1,0 +1,36 @@
+body {
+    background-image: url("images/blue_abstract_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.page-wrapper {
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: content-box;
+    width: 65%;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.intro .banner h1{
+    font-size: 30px;
+    color: darkorange;
+}
+
+.intro .banner h2{
+    font-size: 20px;
+
+}
+
+h3{
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper{
+    background-color: darkgrey;
+}
